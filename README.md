@@ -27,18 +27,6 @@ Here are some of the key projects included in this repository:
 - **Technologies Used**: Python, libraries used, etc.
 - **Key Concepts**: Concepts covered in the project (e.g., OOP, data structures).
 
-### Project Title 2
-- **Description**: Brief description of what the project does.
-- **Technologies Used**: Python, libraries used, etc.
-- **Key Concepts**: Concepts covered in the project.
-
-### Project Title 3
-- **Description**: Brief description of what the project does.
-- **Technologies Used**: Python, libraries used, etc.
-- **Key Concepts**: Concepts covered in the project.
-
-*(Add more projects as needed)*
-
 ## 📥 Installation
 To run the projects locally, ensure you have Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
 

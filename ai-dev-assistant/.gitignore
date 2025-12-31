@@ -1,1 +1,64 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# ===============================
+# Environment variables / secrets
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Docker (local-only state)
+# ===============================
+.docker/
+docker-buildx/
+**/docker-compose.override.yml
+
+# ===============================
+# Build / cache artifacts
+# ===============================
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Testing / coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Jupyter / notebooks
+# ===============================
+.ipynb_checkpoints/
 

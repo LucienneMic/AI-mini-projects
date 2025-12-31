@@ -41,11 +41,11 @@ https://docs.docker.com/desktop/setup/install/mac-install/#install-interactively
 
 ### Tech Stack
 
-Python, FastAPI
-Docker & docker-compose
-GitHub Actions (CI/CD)
-Pytest for automated testing
-Deployed on AWS / GCP
+- Python, FastAPI
+- Docker & docker-compose
+- GitHub Actions (CI/CD)
+- Pytest for automated testing
+- Deployed on AWS / GCP
 
 ### Features
 
@@ -54,10 +54,41 @@ Deployed on AWS / GCP
 - Stateless services for horizontal scalability
 - Automated test suite
 
+### Docker Usage
+
+#### Build and Run
+```
+docker-compose up --build
+```
+
+**API Service:** accessible at http://localhost:8000
+
+**AI Service:** accessible at http://localhost:8001 (optional direct access)
+
+##### Example Requests
+
+Health check:
+```
+curl http://localhost:8000/health
+```
+
+Send prompt:
+```
+curl -X POST "http://localhost:8000/prompt?prompt=Hello"
+```
+
 ### CI/CD
 
 - GitHub Actions pipeline runs tests and builds Docker images on every push
 - Fails builds on test failures
+
+### Tests
+
+Run tests locally with Pytest:
+```
+pytest services/api/tests
+pytest services/ai_service/tests
+```
 
 ### Deployment
 

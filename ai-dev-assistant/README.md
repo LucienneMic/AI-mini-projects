@@ -35,7 +35,7 @@ https://docs.docker.com/desktop/setup/install/mac-install/#install-interactively
 ### Architecture
 
 - API Service: exposes REST endpoints for client requests
-- AI Service: handles AI prompt generation (mocked or real LLM)
+- AI Service: handles AI prompt generation
 - Communication: service-to-service over HTTP
 - Containerization: Docker for isolated environments
 

@@ -15,7 +15,7 @@ https://www.docker.com/
 
 </details>
 
-## :books: Overview
+## Overview
 
 AI Developer Assistant is a microservice-based backend system that provides AI-powered developer assistance via REST APIs.
 The project demonstrates modern backend engineering practices including:
@@ -33,17 +33,6 @@ https://docs.docker.com/desktop/setup/install/mac-install/#install-interactively
 2. Open http://localhost:8088/ to make sure that docker was correctly installed
 
 ### Architecture
-
-┌──────────────┐      HTTP       ┌──────────────┐
-│   API Service│ ─────────────▶ │  AI Service  │
-│   (FastAPI)  │                │ (LLM calls)  │
-└──────────────┘                └──────────────┘
-        │
-        │
-        ▼
-┌──────────────┐
-│   Database   │ 
-└──────────────┘
 
 - API Service: exposes REST endpoints for client requests
 - AI Service: handles AI prompt generation (mocked or real LLM)

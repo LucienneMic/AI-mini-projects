@@ -1,4 +1,4 @@
-# Build an AI developer assistant
+# An AI developer assistant
 
 <details open>
  <summary> :books:General Notes - Click Here</summary>
